@@ -1,0 +1,3 @@
+data: {
+	flowers: csv(data/testData.csv, {separator:','})
+}

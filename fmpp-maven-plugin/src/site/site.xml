@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="Mojo: ${project.name}">
+  <bannerLeft>
+    <name>Mojo: ${project.name}</name>
+  </bannerLeft>
+
+	<body>
+
+		<links>
+			<item name="${project.name}" href="index.html"/>			
+		</links>
+		
+		<menu name="Mojo: ${project.name}">
+			<item name="${project.name}" href="index.html"/>
+		</menu>
+		<menu ref="reports"/>
+
+	</body>
+</project>
