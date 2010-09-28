@@ -43,6 +43,9 @@ import fmpp.setting.Settings;
 import fmpp.util.MiscUtil;
 
 /**
+ * 
+ * Generates artifacts as configured. The output is placed in configured output directory.
+ * 
  * @goal generate
  * @phase generate-sources
  */
@@ -56,6 +59,7 @@ public class FMPPMojo extends AbstractMojo {
 	 * @parameter default-value="${project}"  
 	 * @required 
 	 * @readonly 
+	 * @since 1.0
 	 **/
 	private MavenProject project;
 
@@ -72,6 +76,7 @@ public class FMPPMojo extends AbstractMojo {
 	 * 
 	 * @parameter  default-value="src/main/resources/fmpp/templates/"
 	 * @required
+	 * @since 1.0
 	 */
 	private File templateDirectory;
 	
@@ -80,6 +85,7 @@ public class FMPPMojo extends AbstractMojo {
 	 * 
 	 * @parameter  default-value="src/main/resources/fmpp/config.fmpp"
 	 * @required
+	 * @since 1.0
 	 */
 	private File cfgFile;
 
