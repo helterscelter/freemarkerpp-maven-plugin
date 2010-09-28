@@ -8,7 +8,7 @@
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.googlecode.fmppmojo</groupId>
+	<groupId>com.googlecode.fmpp-maven-plugin</groupId>
 	<artifactId>fmpp-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>1.0</version>
